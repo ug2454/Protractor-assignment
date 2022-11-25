@@ -6,11 +6,8 @@ Feature: Test Banking application
     Scenario Outline: Add customer through bank manager login option
 
         When Enter first and second number <number1> <number2>
-        And select the '<operator>'
-        # And I give the customer details "<FirstName>", "<LastName>","<PostCode>"
-        # And I click on Add customer button
+        And select the '<operator>'    
         Then the result should be '<result>'
-        # add, modulo,minus,multiply, divide
 
         Examples:
             | number1 | number2 | operator       | result |
@@ -19,7 +16,3 @@ Feature: Test Banking application
             | 20      | 5       | MODULO         | 0      |
             | 12      | 4       | DIVISION       | 3      |
             | 10      | 5       | SUBTRACTION    | 5      |
-# Examples:
-#     | FirstName | LastName | PostCode |
-#     | Abhishek  | Thakur   | 1234     |
-# | Test      | test     | 2345     |
