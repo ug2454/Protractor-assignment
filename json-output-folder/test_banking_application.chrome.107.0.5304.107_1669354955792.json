@@ -1,0 +1,443 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test Banking application",
+    "line": 1,
+    "id": "test-banking-application",
+    "tags": [],
+    "uri": "Features\\Test1.feature",
+    "elements": [
+      {
+        "id": "test-banking-application;add-customer-through-bank-manager-login-option",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Add customer through bank manager login option",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Pr\\protractor_typescript_cucumber_fw\\node_modules\\cucumber\\lib\\support_code_library_builder\\index.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I launch the url \"https://juliemr.github.io/protractor-demo/\"",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6474000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter first and second number 1 2",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2077000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "select the 'ADDITION'",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the result should be '3'",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11109000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-banking-application;add-customer-through-bank-manager-login-option",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Add customer through bank manager login option",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Pr\\protractor_typescript_cucumber_fw\\node_modules\\cucumber\\lib\\support_code_library_builder\\index.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I launch the url \"https://juliemr.github.io/protractor-demo/\"",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter first and second number 20 5",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2068000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "select the 'MULTIPLICATION'",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4084000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the result should be '100'",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11094000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-banking-application;add-customer-through-bank-manager-login-option",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Add customer through bank manager login option",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Pr\\protractor_typescript_cucumber_fw\\node_modules\\cucumber\\lib\\support_code_library_builder\\index.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I launch the url \"https://juliemr.github.io/protractor-demo/\"",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter first and second number 20 5",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2068000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "select the 'MODULO'",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4079000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the result should be '0'",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11135000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-banking-application;add-customer-through-bank-manager-login-option",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Add customer through bank manager login option",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Pr\\protractor_typescript_cucumber_fw\\node_modules\\cucumber\\lib\\support_code_library_builder\\index.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I launch the url \"https://juliemr.github.io/protractor-demo/\"",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter first and second number 12 4",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "select the 'DIVISION'",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4125000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the result should be '3'",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11084000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-banking-application;add-customer-through-bank-manager-login-option",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Add customer through bank manager login option",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Pr\\protractor_typescript_cucumber_fw\\node_modules\\cucumber\\lib\\support_code_library_builder\\index.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I launch the url \"https://juliemr.github.io/protractor-demo/\"",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter first and second number 10 5",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "select the 'SUBTRACTION'",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4097000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the result should be '5'",
+            "match": {
+              "location": "Features\\Step_Definitions\\StepDef.ts:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11111000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "107.0.5304.107"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
