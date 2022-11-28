@@ -58,10 +58,10 @@ Then('the result should be {string} with {string}', { timeout: 60 * 1000 }, asyn
   
     
     let output = element(by.cssContainingText('.ng-binding', result_calc));
-    var expression= (await element(by.xpath("(//tr[@class='ng-scope'])[1]/td[2]")).getText()).toString()
+    var expression:string= (await element(by.xpath("(//tr[@class='ng-scope'])[1]/td[2]")).getText()).toString()
     browser.sleep(1000)
     console.log('EXPRESSION'+(await expression));
-    var result_table = (await element(by.xpath("(//tr[@class='ng-scope'])[1]/td[3]")).getText()).toString();
+    var result_table:string = (await element(by.xpath("(//tr[@class='ng-scope'])[1]/td[3]")).getText()).toString();
     if (await output.getText() == result_calc && table_expression==expression && await output.getText()==result_table) {
         assert(true)
         console.log('matching'+result_calc)
