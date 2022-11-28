@@ -10,7 +10,7 @@ export let config: Config = {
         browserName: 'chrome'
     },
 
-    specs: ['../Features/Test1.feature'],
+    specs: ['../Files/Test1.feature'],
 
     cucumberOpts: {
         // require: 'Features/Step_Definitions/StepDef.js',
@@ -42,7 +42,7 @@ export let config: Config = {
 
         },
         require: [
-            'Features/Step_Definitions/StepDef.js'
+            'Files/Step_Definitions/StepDef.js'
         ]
     },
     plugins: [{

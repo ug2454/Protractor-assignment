@@ -1,0 +1,101 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test Banking application",
+    "line": 1,
+    "id": "test-banking-application",
+    "tags": [],
+    "uri": "Files\\Test1.feature",
+    "elements": [
+      {
+        "id": "test-banking-application;add-customer-through-bank-manager-login-option",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Add customer through bank manager login option",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "assignment\\node_modules\\cucumber\\lib\\support_code_library_builder\\index.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I launch the url \"https://juliemr.github.io/protractor-demo/\"",
+            "match": {
+              "location": "Files\\Step_Definitions\\StepDef.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5827000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter first and second number abc def",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "select the 'ADDITION'",
+            "match": {
+              "location": "Files\\Step_Definitions\\StepDef.ts:20"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the result should be 'NaN' with 'NaN'",
+            "match": {
+              "location": "Files\\Step_Definitions\\StepDef.ts:52"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "107.0.5304.107"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

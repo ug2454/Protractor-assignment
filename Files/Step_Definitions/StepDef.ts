@@ -3,26 +3,27 @@ import { browser, element, by } from "protractor"
 
 import assert from "assert";
 
-Given('I launch the url {string}', { timeout: 60 * 1000 }, async function (url) {
+Given('I launch the url {string}', { timeout: 60 * 1000 }, async function (url:string) {
     await browser.get(url).then(async function () {
         await browser.driver.manage().window().maximize();
         await browser.sleep(5000)
     })
 })
 
-When('Enter first and second number {int} {int}', { timeout: 60 * 1000 }, async function (number1, number2) {
+When('Enter first and second number {string} {string}', { timeout: 60 * 1000 }, async function (number1:string, number2:string) {
     element(by.model('first')).sendKeys(number1);
     await browser.sleep(2000);
     element(by.model('second')).sendKeys(number2);
  
 });
 
-When('select the {string}', { timeout: 60 * 1000 }, async function (operator) {
+When('select the {string}', { timeout: 60 * 1000 }, async function (operator:string) {
     await browser.sleep(2000);
     element(by.model("operator")).click()
     await browser.sleep(2000);
     var allOptions = element.all(by.options('value for (key, value) in operators'));
     
+
     if (operator == "ADDITION") {
         console.log('ADDITION'+allOptions.get(0).getText())
         allOptions.get(0).click();
@@ -39,6 +40,7 @@ When('select the {string}', { timeout: 60 * 1000 }, async function (operator) {
     else if (operator == "SUBTRACTION") {
         allOptions.get(4).click();
     }
+    
 
 
 
@@ -47,19 +49,23 @@ When('select the {string}', { timeout: 60 * 1000 }, async function (operator) {
 
 
 
-Then('the result should be {string}', { timeout: 60 * 1000 }, async function (result_calc) {
-    console.log('INSIDE THEN1');
+Then('the result should be {string} with {string}', { timeout: 60 * 1000 }, async function (result_calc:string, table_expression:string) {
+    
     await browser.sleep(2000);
-    console.log('INSIDE THEN2');
+    
     element(by.className('btn')).click();
     await browser.sleep(9000);
-    console.log('INSIDE THEN3');
-    // let output = element(by.xpath('(//h2[@class=\'ng-binding\'])[1]'));
+  
+    
     let output = element(by.cssContainingText('.ng-binding', result_calc));
-    console.log('INSIDE THEN4');
-    if (await output.getText() == result_calc) {
+    var expression= (await element(by.xpath("(//tr[@class='ng-scope'])[1]/td[2]")).getText()).toString()
+    browser.sleep(1000)
+    console.log('EXPRESSION'+(await expression));
+    var result_table = (await element(by.xpath("(//tr[@class='ng-scope'])[1]/td[3]")).getText()).toString();
+    if (await output.getText() == result_calc && table_expression==expression && await output.getText()==result_table) {
         assert(true)
         console.log('matching'+result_calc)
+        console.log('matching'+table_expression+''+expression)
     }
     else {
         assert(false)
